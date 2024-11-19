@@ -1,0 +1,48 @@
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-family: 'Arial', sans-serif;
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+/* General button reset
+button {
+    font-family: 'Arial', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styled button */
+/* .styled-button {
+    background-color: #007BFF; 
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    border-radius: 25px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; 
+} */
+
+.styled-button:hover {
+    background-color: #0056b3; 
+    transform: translateY(-3px); 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.styled-button:active {
+    background-color: #003f7f; 
+    transform: translateY(1px); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
