@@ -97,3 +97,43 @@ body {
     box-sizing: border-box; 
 }
   
+.blog-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.blog-box input, .blog-box textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.blog-box button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.blog-box button:hover {
+  background-color: #218838;
+}
+.blog-display {
+  margin-top: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.blog-post {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.blog-post h2 {
+  margin: 0 0 10px;
+}
